@@ -1,0 +1,189 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 165, 158
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rayman 3 Lums Race Code Generation Tool"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Parameters",IDC_STATIC,6,6,153,72
+    LTEXT           "Points:",IDC_STATIC,20,22,23,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_POINTS,72,22,74,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Cages:",IDC_STATIC,20,38,24,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_CAGES,72,38,74,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Save Random:",IDC_STATIC,20,54,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SAVERND,72,54,74,12,ES_AUTOHSCROLL | ES_NUMBER
+    DEFPUSHBUTTON   "&Generate Code",IDC_GENERATE,42,86,78,18
+    GROUPBOX        "Lums Race Code",IDC_STATIC,6,112,153,38
+    EDITTEXT        IDC_LUMCODE,20,126,126,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 159
+        VERTGUIDE, 20
+        VERTGUIDE, 68
+        VERTGUIDE, 72
+        VERTGUIDE, 81
+        VERTGUIDE, 146
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 150
+        HORZGUIDE, 22
+        HORZGUIDE, 34
+        HORZGUIDE, 38
+        HORZGUIDE, 50
+        HORZGUIDE, 54
+        HORZGUIDE, 66
+        HORZGUIDE, 78
+        HORZGUIDE, 86
+        HORZGUIDE, 104
+        HORZGUIDE, 112
+        HORZGUIDE, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "RTI3.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Spitfire_x86"
+            VALUE "FileDescription", "Rayman 3 Lums Race Code Generation Tool"
+            VALUE "FileVersion", "1.1.0.0"
+            VALUE "InternalName", "Ray3LRCG.exe"
+            VALUE "LegalCopyright", "Copyright (C) Spitfire_x86 2020"
+            VALUE "OriginalFilename", "Ray3LRCG.exe"
+            VALUE "ProductName", "Ray3LRCG"
+            VALUE "ProductVersion", "1.1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
